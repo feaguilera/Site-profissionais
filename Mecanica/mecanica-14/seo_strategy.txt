@@ -1,0 +1,27 @@
+🎯 SEO STRATEGY - Carbon Performance (Stealth & Crimson Edition)
+
+1. ESTRUTURA DE HEADINGS:
+H1: Carbon Performance Stealth Ops | Engenharia de Pista e Tuning Premium SP
+H2: Stealth Programs: A Seleção de Performance de Elite
+H2: Obsidian Engineering: Nosso Processo de Modificação
+H2: Circuit Validated: Resultados que Falam na Pista
+H3: Reprogramação de ECU Stage 3, Escapes de Titânio e Diagnóstico Avançado
+
+2. PALAVRAS-CHAVE DE ALTA CONVERSÃO:
+- Preparação de carros esportivos São Paulo
+- Tuning de luxo Porsche BMW Ferrari SP
+- Melhor oficina de performance importados SP
+- Reprogramação de central eletrônica ganho de HP
+- Upgrades de performance Carbono e Titânio
+
+3. META DESCRIPTION:
+"Carbon Performance Stealth Ops em São Paulo. Onde a engenharia de pista encontra a exclusividade. Reprogramação, tuning e upgrades de elite para veículos premium. Sinta a potência real."
+
+4. SLUG / URL ESTRUTURADA:
+/performance-stealth-ops-tuning-sp
+
+5. PALETA "STEALTH & CRIMSON":
+- Base: #0A0A0A (Matte Obsidian)
+- Acento 1: #E60000 (Crimson Red / Vitalidade e Velocidade)
+- Acento 2: #161616 (Deep Graphite)
+- Detalhe: #FFFFFF (Pure White / Legibilidade e Contraste)

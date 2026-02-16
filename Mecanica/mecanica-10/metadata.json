@@ -1,0 +1,8 @@
+{
+  "name": "Carbon Performance Hub",
+  "description": "Landing page de alta conversão para oficinas de luxo e preparação automotiva, focada em upgrades de performance e diagnósticos avançados.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

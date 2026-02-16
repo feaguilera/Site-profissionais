@@ -1,0 +1,9 @@
+
+{
+  "name": "TurboTech Mecânica Automotiva",
+  "description": "Landing page de alta conversão para centros automotivos premium focada em agendamentos e orçamentos via WhatsApp.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

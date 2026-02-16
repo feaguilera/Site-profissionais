@@ -1,0 +1,31 @@
+🎯 SEO STRATEGY - TurboTech Volt Industrial (Yellow & Black)
+
+1. ESTRUTURA DE HEADINGS:
+H1: TurboTech Mecânica Automotiva | Força Industrial e Diagnóstico de Performance em SP
+H2: Nossas Soluções: Manutenção Heavy-Duty com Transparência de Elite
+H2: Padrão TurboTech: A Autoridade em Performance Automotiva
+H2: Depoimentos: Referência em Segurança e Durabilidade
+H3: Revisão Preventiva, Injeção Eletrônica, Freios e Suspensão de Alta Visibilidade
+
+2. PALAVRAS-CHAVE PRINCIPAIS:
+- Melhor oficina mecânica industrial São Paulo
+- Mecânica especializada veículos pesados e performance sp
+- Revisão preventiva com diagnóstico scanner premium sp
+- Oficina mecânica preto e amarelo alta visibilidade sp
+- Manutenção automotiva de elite garantia 1 ano sp
+
+3. META DESCRIPTION:
+"Oficina mecânica TurboTech em São Paulo. Especialistas em diagnóstico de força e engenharia industrial. Orçamento via WhatsApp com tecnologia Volt Performance."
+
+4. SLUG SUGERIDO:
+/mecanica-industrial-diagnostico-performance-sp
+
+5. DOMÍNIO SUGERIDO:
+turbotechvolt.com.br
+oficinaturbotech.com.br
+
+6. PALETA DE CORES (VOLT INDUSTRIAL & OBSIDIAN):
+- Base: #000000 (True Black / Força e Elegância)
+- Primária: #FACC15 (Volt Yellow / Atenção e Visibilidade)
+- Destaque: #FEF08A (Light Yellow / Modernidade e Brilho)
+- Texto: #F8FAFC (Clean White / Precisão Técnica)

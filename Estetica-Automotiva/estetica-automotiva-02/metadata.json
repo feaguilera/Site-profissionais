@@ -1,0 +1,8 @@
+{
+  "name": "Carbon Detail | Estética Automotiva de Elite",
+  "description": "Landing page de alta conversão para estúdios de detailing, vitrificação cerâmica e proteção automotiva premium.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
