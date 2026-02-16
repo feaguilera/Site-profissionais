@@ -1,0 +1,32 @@
+
+🎯 SEO STRATEGY - Lumière Estética Avançada (Paleta Pastel Soft)
+
+1. ESTRUTURA DE HEADINGS:
+H1: Lumière Estética Avançada | Sua Beleza em Harmonia e Leveza
+H2: Protocolos de Estética Facial com Sensibilidade
+H2: Por que escolher o cuidado personalizado Lumière?
+H2: Histórias de Satisfação e Bem-estar
+H3: Harmonização Facial, Skinbooster, Preenchimentos Naturais
+
+2. PALAVRAS-CHAVE PRINCIPAIS:
+- Clínica estética rosa pastel premium
+- Harmonização facial sutil São Paulo
+- Procedimentos estéticos pele delicada
+- Clínica de estética feminina alto padrão
+- Estética facial com resultados naturais
+
+3. META DESCRIPTION:
+"A Lumière Estética une ciência e sensibilidade. Protocolos de Harmonização e Bioestimuladores em um ambiente acolhedor e leve. Sinta o carinho que sua pele merece."
+
+4. SLUG SUGERIDO:
+/estetica-facial-delicada-resultados-naturais
+
+5. DOMÍNIO SUGERIDO:
+lumiereestetica.com.br
+clinicalumiere.com.br
+
+6. PALETA DE CORES (MARSHMALLOW & POWDER PINK):
+- Base: #FFFBFC (Cotton Candy / Iluminação)
+- Primária: #FFC2D1 (Powder Pink / Suavidade)
+- Accent (CTA): #FB6F92 (Soft Punch / Ação Suave)
+- Texto: #4A2027 (Dark Cocoa / Conforto Visual)

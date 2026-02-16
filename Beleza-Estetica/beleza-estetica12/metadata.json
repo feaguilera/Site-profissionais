@@ -1,0 +1,7 @@
+{
+  "name": "Lumière Estética Avançada",
+  "description": "High-conversion landing page for a premium aesthetic clinic focusing on lead generation and appointment booking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
