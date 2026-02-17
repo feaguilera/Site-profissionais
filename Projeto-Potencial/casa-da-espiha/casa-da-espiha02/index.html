@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa da Esfiha | Excelência em Gastronomia Artesanal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;0,700;1,400&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --heritage-green: #1E2923;
+        --earth-red: #8B261D;
+        --warm-wheat: #F9F6F0;
+        --border-gold: #D4AF37;
+      }
+      body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: var(--warm-wheat);
+        color: var(--heritage-green);
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+      }
+      .font-serif {
+        font-family: 'Cormorant Garamond', serif;
+      }
+      .btn-heritage {
+        background: var(--heritage-green);
+        color: white;
+        transition: all 0.4s ease;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-size: 0.7rem;
+        font-weight: 700;
+      }
+      .btn-heritage:hover {
+        background: var(--earth-red);
+        letter-spacing: 0.25em;
+      }
+      .heritage-card {
+        background: white;
+        border: 1px solid rgba(30, 41, 35, 0.08);
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .heritage-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 40px -15px rgba(30, 41, 35, 0.1);
+        border-color: var(--border-gold);
+      }
+      .line-accent {
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--border-gold), transparent);
+      }
+      h1, h2, h3 {
+        text-wrap: balance;
+      }
+      ::-webkit-scrollbar { width: 4px; }
+      ::-webkit-scrollbar-track { background: var(--warm-wheat); }
+      ::-webkit-scrollbar-thumb { background: var(--heritage-green); }
+      
+      @media (max-width: 640px) {
+        .btn-heritage {
+          letter-spacing: 0.1em;
+          font-size: 0.65rem;
+        }
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4",
+        "@google/genai": "https://esm.sh/@google/genai@^1.41.0"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
