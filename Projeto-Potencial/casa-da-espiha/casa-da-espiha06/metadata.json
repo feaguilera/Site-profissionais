@@ -1,0 +1,7 @@
+{
+  "name": "Casa da Esfiha Ourinhos | Sabor Artesanal e Massa Leve",
+  "description": "As melhores esfihas, salgados e sucos de Ourinhos. Peça agora pelo WhatsApp e receba quentinho na sua casa!",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

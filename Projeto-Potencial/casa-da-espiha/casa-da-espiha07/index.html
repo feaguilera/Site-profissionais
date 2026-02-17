@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Casa da Esfiha | O Padrão Ouro de Ourinhos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --brand-red: #E31C1C;
+        --brand-yellow: #FFD700;
+        --brand-blue: #0F172A; /* Azul marinho profundo para contraste premium */
+        --brand-blue-light: #87CEEB;
+      }
+      * { -webkit-tap-highlight-color: transparent; outline: none !important; }
+      body {
+        font-family: 'Sora', sans-serif;
+        background-color: #fff;
+        color: #1a1a1a;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+      }
+      .font-heritage { font-family: 'Playfair Display', serif; }
+      
+      .btn-primary {
+        background: var(--brand-red);
+        color: white;
+        font-weight: 800;
+        border-radius: 12px;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 8px 20px -6px rgba(227, 28, 28, 0.4);
+      }
+      .btn-primary:active { transform: scale(0.95); }
+
+      .glass-card {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      .tab-active {
+        background: var(--brand-red);
+        color: white;
+        box-shadow: 0 4px 12px rgba(227, 28, 28, 0.2);
+      }
+
+      @keyframes slideIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .reveal { animation: slideIn 0.8s ease forwards; }
+
+      /* Melhoria na barra de scroll */
+      ::-webkit-scrollbar { width: 4px; }
+      ::-webkit-scrollbar-thumb { background: var(--brand-red); border-radius: 10px; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.564.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

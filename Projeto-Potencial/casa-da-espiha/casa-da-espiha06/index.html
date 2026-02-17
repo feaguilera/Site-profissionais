@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Casa da Esfiha | Tradição e Sabor em Ourinhos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Public+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --brand-red: #E31C1C;
+        --brand-yellow: #FFD700;
+        --brand-blue: #87CEEB;
+        --text-main: #1A1A1A;
+      }
+      * { -webkit-tap-highlight-color: transparent; }
+      body {
+        font-family: 'Public Sans', sans-serif;
+        background-color: #fff;
+        color: var(--text-main);
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+      }
+      .font-serif { font-family: 'Fraunces', serif; }
+      
+      .btn-elegant {
+        background-color: var(--brand-red);
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 0px #9b1313;
+      }
+      .btn-elegant:active {
+        transform: translateY(2px);
+        box-shadow: 0 0px 0px #9b1313;
+      }
+
+      .mobile-menu-overlay {
+        backdrop-filter: blur(8px);
+        background-color: rgba(255, 255, 255, 0.98);
+      }
+
+      .mascot-seal {
+        filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
+        animation: subtle-float 4s ease-in-out infinite;
+      }
+
+      @keyframes subtle-float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
+      }
+
+      .card-shadow {
+        box-shadow: 0 10px 30px -5px rgba(0,0,0,0.05);
+      }
+
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-thumb { background: var(--brand-red); }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

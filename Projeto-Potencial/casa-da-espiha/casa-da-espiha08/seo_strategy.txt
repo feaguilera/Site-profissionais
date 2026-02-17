@@ -1,0 +1,25 @@
+🎯 SEO STRATEGY - seusiteprofissional (v4.0)
+
+1. ESTRUTURA DE HEADINGS:
+H1: seusiteprofissional | Engenharia de Software por Felipe B. - Segurança & Performance
+H2: Autoridade Digital para Empresas de Alto Valor
+H2: Especialista Felipe B.: Engenheiro de Software & Analista de Segurança
+H2: Metodologia A.D.S. (Analysis, Engineering, System)
+H2: Investimento Estratégico em Landing Pages e Tráfego Pago
+H3: Por que Código Puro (React) é a escolha das grandes empresas?
+
+2. PALAVRAS-CHAVE DE ALTA CONVERSÃO:
+- Engenheiro de software Felipe B. criação de sites
+- Criação de landing pages profissionais para advogados e médicos
+- Site institucional seguro contra sequestro de dados
+- Especialista em Google Ads e Meta Ads estratégico
+- Desenvolvimento web de alta performance com React
+
+3. META DESCRIPTION:
+"seusiteprofissional: Projetos digitais de elite assinados por Felipe B., engenheiro de software e especialista em segurança. Sites ultrarrápidos, seguros e focados em ROI para empresas que exigem excelência."
+
+4. PALETA "ELITE MIDNIGHT & SKY":
+- Primária: #020617 (Midnight Onyx)
+- Acento 1: #38BDF8 (Sky Blue)
+- Acento 2: #FACC15 (Luxury Gold para detalhes de ROI)
+- Fundo: Radial Gradient profundo para foco central.

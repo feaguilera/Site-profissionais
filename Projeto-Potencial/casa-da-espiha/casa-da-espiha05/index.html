@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa da Esfiha | O Padrão Ouro da Esfiha Fechada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&family=Lexend:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --brand-red: #E31C1C;
+        --brand-yellow: #FFD700;
+        --brand-blue: #87CEEB;
+        --bg-soft: #FDFDFD;
+      }
+      body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        background-color: var(--bg-soft);
+        color: #1a1a1a;
+        scroll-behavior: smooth;
+      }
+      .font-lexend { font-family: 'Lexend', sans-serif; }
+      
+      .btn-primary {
+        background: var(--brand-red);
+        color: white;
+        font-weight: 800;
+        border-radius: 99px;
+        transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      .btn-primary:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(227, 28, 28, 0.2);
+        background: #C11515;
+      }
+      
+      .glass-card {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        border-radius: 24px;
+        transition: all 0.4s ease;
+      }
+      .glass-card:hover {
+        border-color: var(--brand-blue);
+        transform: translateY(-5px);
+      }
+
+      .logo-container {
+        border: 3px solid var(--brand-blue);
+        box-shadow: 0 0 0 3px var(--brand-yellow);
+        border-radius: 50%;
+      }
+
+      .badge-yellow {
+        background-color: var(--brand-yellow);
+        color: #000;
+        font-weight: 900;
+      }
+
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0px); }
+      }
+      .animate-float { animation: float 3s ease-in-out infinite; }
+
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-thumb { background: var(--brand-red); border-radius: 10px; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

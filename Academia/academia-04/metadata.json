@@ -1,0 +1,8 @@
+
+{
+  "name": "Titan Performance | Evolua seu Corpo ao Próximo Nível",
+  "description": "A academia mais completa da região. Musculação, Crossfit, Nutrição e Personal Trainer. Comece sua transformação hoje!",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

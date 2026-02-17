@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Titan Performance | Hyper-Futurist Fitness</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --brand-cyan: #22D3EE;
+        --brand-blue: #4338CA;
+        --brand-bg: #020617;
+      }
+      * { -webkit-tap-highlight-color: transparent; outline: none !important; }
+      body {
+        font-family: 'Outfit', sans-serif;
+        background-color: var(--brand-bg);
+        color: #ffffff;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+      }
+      .font-mono { font-family: 'JetBrains Mono', monospace; }
+      
+      .glass {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .btn-hyper {
+        background: linear-gradient(135deg, var(--brand-cyan), var(--brand-blue));
+        color: #000;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding: 1rem 2.5rem;
+        border-radius: 9999px;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        position: relative;
+        overflow: hidden;
+      }
+      .btn-hyper:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(34, 211, 238, 0.4);
+      }
+      
+      .text-glow {
+        text-shadow: 0 0 20px rgba(34, 211, 238, 0.5);
+      }
+
+      .cyan-border-glow:hover {
+        border-color: var(--brand-cyan);
+        box-shadow: 0 0 15px rgba(34, 211, 238, 0.2);
+      }
+
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: var(--brand-bg); }
+      ::-webkit-scrollbar-thumb { background: var(--brand-cyan); border-radius: 10px; }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.4",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "lucide-react": "https://esm.sh/lucide-react@^0.564.0"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

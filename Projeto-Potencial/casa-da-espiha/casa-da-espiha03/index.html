@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa da Esfiha | O Segredo da Esfiha Fechada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --vault-black: #0F0F0F;
+        --vault-amber: #F59E0B;
+        --vault-gray: #1E1E1E;
+        --vault-silver: #E5E5E5;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--vault-black);
+        color: var(--vault-silver);
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+      }
+      .font-display {
+        font-family: 'Big Shoulders Display', sans-serif;
+      }
+      .btn-vault {
+        background: var(--vault-amber);
+        color: var(--vault-black);
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        transition: all 0.3s ease;
+      }
+      .btn-vault:hover {
+        background: white;
+        transform: scale(1.05);
+      }
+      .card-vault {
+        background: var(--vault-gray);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        transition: all 0.4s ease;
+      }
+      .card-vault:hover {
+        border-color: var(--vault-amber);
+        box-shadow: 0 0 30px rgba(245, 158, 11, 0.1);
+      }
+      .text-balance {
+        text-wrap: balance;
+      }
+      .glow-amber {
+        box-shadow: 0 0 50px rgba(245, 158, 11, 0.2);
+      }
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: var(--vault-black); }
+      ::-webkit-scrollbar-thumb { background: var(--vault-amber); }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4",
+        "@google/genai": "https://esm.sh/@google/genai@^1.41.0"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
