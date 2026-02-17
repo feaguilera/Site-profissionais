@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Projeto Casa da Esfiha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #e63946; /* Vermelho Esfiha */
+            --secondary: #f1faee;
+            --accent: #ffb703; /* Amarelo/Laranja */
+            --dark: #1d3557;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f9;
+            color: var(--dark);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: var(--primary);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(230, 57, 70, 0.3);
+        }
+
+        h1 { margin: 0; font-size: 2.2rem; }
+        p { opacity: 0.9; margin-top: 10px; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .card:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        .card i {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+
+        .card span {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 5px;
+            font-weight: 400;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🍕 Projeto Casa da Esfiha</h1>
+        <p>Selecione a versão da Landing Page abaixo para visualizar</p>
+    </header>
+
+    <div class="grid">
+        <a href="casa-da-espiha01/index.html" class="card">
+            <i class="fas fa-store"></i>
+            Versão 01
+            <span>Layout Inicial</span>
+        </a>
+
+        <a href="casa-da-espiha02/index.html" class="card">
+            <i class="fas fa-utensils"></i>
+            Versão 02
+            <span>Ajuste de Menu</span>
+        </a>
+
+        <a href="casa-da-espiha03/index.html" class="card">
+            <i class="fas fa-motorcycle"></i>
+            Versão 03
+            <span>Foco em Delivery</span>
+        </a>
+
+        <a href="casa-da-espiha04/index.html" class="card">
+            <i class="fas fa-star"></i>
+            Versão 04
+            <span>Prova Social</span>
+        </a>
+
+        <a href="casa-da-espiha05/index.html" class="card">
+            <i class="fas fa-mobile-alt"></i>
+            Versão 05
+            <span>Mobile-First</span>
+        </a>
+
+        <a href="casa-da-espiha06/index.html" class="card">
+            <i class="fas fa-tags"></i>
+            Versão 06
+            <span>Promoções</span>
+        </a>
+
+        <a href="casa-da-espiha07/index.html" class="card">
+            <i class="fas fa-images"></i>
+            Versão 07
+            <span>Galeria de Fotos</span>
+        </a>
+
+        <a href="casa-da-espiha08/index.html" class="card">
+            <i class="fas fa-check-circle"></i>
+            Versão 08
+            <span>Final Revisada</span>
+        </a>
+    </div>
+
+    <footer>
+        Desenvolvido por FeAguilera &bull; 2026
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub | Projetos Fitness & Academia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ccff00; /* Verde Lima/Amarelo Neon */
+            --bg: #111111; /* Preto Carbono */
+            --card-bg: #1a1a1a;
+            --text: #ffffff;
+            --gray: #888888;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 0;
+            border-bottom: 2px solid var(--primary);
+            margin-bottom: 40px;
+        }
+
+        h1 { 
+            margin: 0; 
+            font-family: 'Oswald', sans-serif; 
+            font-size: 3rem; 
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--primary);
+        }
+
+        p { color: var(--gray); margin-top: 10px; font-size: 1.1rem; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 4px;
+            text-align: left;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.3s ease;
+            border-left: 5px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            background: #222;
+            border-left: 5px solid var(--primary);
+            transform: scale(1.03);
+        }
+
+        .card i {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+            display: block;
+        }
+
+        .card h3 {
+            margin: 10px 0 5px 0;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            font-size: 1.4rem;
+        }
+
+        .card span {
+            font-size: 0.85rem;
+            color: var(--gray);
+            display: block;
+        }
+
+        .card::after {
+            content: 'VIEW LIVE';
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            color: var(--primary);
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .card:hover::after {
+            opacity: 1;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: var(--gray);
+            border-top: 1px solid #222;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>💪 Fitness Portfolio</h1>
+        <p>Landing Pages focadas em conversão para Academias e Personal Trainers</p>
+    </header>
+
+    <div class="grid">
+        <a href="academia-01/index.html" class="card">
+            <i class="fas fa-dumbbell"></i>
+            <h3>Academia 01</h3>
+            <span>Foco em Musculação Pesada</span>
+        </a>
+
+        <a href="academia-02/index.html" class="card">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Academia 02</h3>
+            <span>Foco em Cardio e Saúde</span>
+        </a>
+
+        <a href="academia-03/index.html" class="card">
+            <i class="fas fa-users"></i>
+            <h3>Academia 03</h3>
+            <span>Treino em Grupo / Crossfit</span>
+        </a>
+
+        <a href="academia-04/index.html" class="card">
+            <i class="fas fa-medal"></i>
+            <h3>Academia 04</h3>
+            <span>Premium / Alta Performance</span>
+        </a>
+
+        <a href="academia-05/index.html" class="card">
+            <i class="fas fa-clock"></i>
+            <h3>Academia 05</h3>
+            <span>24 Horas / Conveniência</span>
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2026 FeAguilera Studio | High Conversion Pages
+    </footer>
+</div>
+
+</body>
+</html>

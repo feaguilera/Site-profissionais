@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -31,6 +30,10 @@
         letter-spacing: 0.1em;
         transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
         border: 2px solid var(--brand-neon);
+        padding: 15px 30px;
+        display: inline-block;
+        border-radius: 5px;
+        text-decoration: none;
       }
       .btn-neon:hover {
         background: transparent;
@@ -42,6 +45,8 @@
         background: rgba(26, 26, 26, 0.6);
         backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 255, 255, 0.05);
+        padding: 30px;
+        border-radius: 15px;
       }
 
       .text-gradient {
@@ -49,26 +54,36 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
-
-      /* Custom scrollbar para tema dark */
-      ::-webkit-scrollbar { width: 6px; }
-      ::-webkit-scrollbar-track { background: var(--brand-dark); }
-      ::-webkit-scrollbar-thumb { background: var(--brand-neon); border-radius: 10px; }
     </style>
-    <script type="importmap">
-    {
-      "imports": {
-        "react": "https://esm.sh/react@^19.2.4",
-        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-        "react/": "https://esm.sh/react@^19.2.4/",
-        "lucide-react": "https://esm.sh/lucide-react@^0.564.0"
-      }
-    }
-    </script>
-  <link rel="stylesheet" href="/index.css">
-</head>
+  </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <section class="min-h-screen flex items-center justify-center text-center px-4" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=1920'); background-size: cover; background-position: center;">
+      <div class="max-w-4xl">
+        <h1 class="font-impact text-6xl md:text-8xl mb-6 text-gradient uppercase">Titan Performance</h1>
+        <p class="text-xl md:text-2xl mb-8 font-light tracking-widest">FORJA SEU CORPO. DOMINE SUA MENTE.</p>
+        <a href="https://wa.me/seu-numero" class="btn-neon">Começar Minha Evolução</a>
+      </div>
+    </section>
+
+    <section class="py-20 px-6">
+      <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+        <div class="glass-card">
+          <h3 class="font-impact text-2xl text-[#C6FF00] mb-4">ALTA PERFORMANCE</h3>
+          <p class="text-gray-400">Equipamentos de última geração para quem não aceita menos que o topo.</p>
+        </div>
+        <div class="glass-card">
+          <h3 class="font-impact text-2xl text-[#C6FF00] mb-4">TREINO ELITE</h3>
+          <p class="text-gray-400">Personal trainers focados em resultados reais e biomecânica aplicada.</p>
+        </div>
+        <div class="glass-card">
+          <h3 class="font-impact text-2xl text-[#C6FF00] mb-4">COMUNIDADE</h3>
+          <p class="text-gray-400">Um ambiente projetado para superar limites, todos os dias.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-10 text-center border-t border-gray-800">
+        <p class="text-gray-500 text-sm uppercase tracking-widest">&copy; 2026 Titan Performance | Academia de Elite</p>
+    </footer>
   </body>
 </html>
