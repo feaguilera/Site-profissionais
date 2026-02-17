@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Landing Pages | FeAguilera</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f8fafc;
+            --text: #1e293b;
+        }
+        body { font-family: 'Montserrat', sans-serif; background: var(--bg); color: var(--text); padding: 40px 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 50px; }
+        h1 { font-size: 2rem; color: var(--primary); }
+        
+        .category { margin-bottom: 40px; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .category h2 { border-bottom: 2px solid var(--primary); padding-bottom: 10px; margin-bottom: 20px; font-size: 1.4rem; }
+        
+        .links-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
+        .link-card { 
+            padding: 12px; background: #f1f5f9; border-radius: 8px; 
+            text-decoration: none; color: var(--text); font-size: 0.9rem;
+            transition: all 0.2s; border: 1px solid transparent;
+            display: flex; align-items: center;
+        }
+        .link-card:hover { background: var(--primary); color: white; transform: translateY(-3px); }
+        .link-card::before { content: "🔗"; margin-right: 8px; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Meus Projetos de Landing Pages</h1>
+        <p>Selecione um nicho abaixo para visualizar o site ao vivo.</p>
+    </header>
+
+    <div class="category">
+        <h2>✨ Clínica de Estética</h2>
+        <div class="links-grid">
+            <a href="site-profissional/index.html" class="link-card">Site Profissional (Principal)</a>
+            <a href="Beleza-Estetica/beleza-estetica01/index.html" class="link-card">Estética 01</a>
+            <a href="Beleza-Estetica/beleza-estetica02/index.html" class="link-card">Estética 02</a>
+            </div>
+    </div>
+
+    <div class="category">
+        <h2>💪 Academias</h2>
+        <div class="links-grid">
+            <a href="Academia/academia-01/index.html" class="link-card">Academia 01</a>
+            <a href="Academia/academia-02/index.html" class="link-card">Academia 02</a>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>🚗 Estética Automotiva</h2>
+        <div class="links-grid">
+            <a href="Estetica-Automotiva/estetica-automotiva-01/index.html" class="link-card">Automotiva 01</a>
+            <a href="Estetica-Automotiva/estetica-automotiva-02/index.html" class="link-card">Automotiva 02</a>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>🔧 Mecânica</h2>
+        <div class="links-grid">
+            <a href="Mecanica/mecanica-01/index.html" class="link-card">Mecânica 01</a>
+            <a href="Mecanica/mecanica-02/index.html" class="link-card">Mecânica 02</a>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>🍕 Projetos Especiais</h2>
+        <div class="links-grid">
+            <a href="Projeto-Potencial/casa-da-espiha/index.html" class="link-card">Casa da Esfiha</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
